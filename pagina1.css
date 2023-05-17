@@ -67,6 +67,11 @@ body{
     color: #ececec;
     text-align: center;
     text-decoration: none;
+    font-size: 25px;
+}
+
+.nombre li{
+    list-style: none;
 }
 
 .icono{
@@ -117,17 +122,64 @@ font-family: 'Cambria';
     text-decoration: none;
     font-size: 40px;
 }
+/**Slider Frame Escritorio y Movil**/
+.slider-frame{
+    height: auto;
+    width: 45vmax;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 8s infinite ease-in-out;
+}
+
+.slider-frame li{
+    color: #ececec;
+    text-align: center;
+    font-size: 30px;
+
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+
+}
+
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
 
 .bannerm{
-     height: auto;
-     width: 480px;
+    height: auto;
+    width: 480px;
 }
 
 .nombrem{
-    color: #ececec;
+    color: #dfe1c8ce;
     text-align: center;
-    text-decoration: none;
-    font-size: 25px;
+    font-size: 40px;
+}
+
+.nombrem li{
+    list-style: none;
 }
 
 .iconom{
