@@ -16,6 +16,12 @@ body{
 
 /**Vista Escritorio**/
 
+.title{
+    font-family:'Segoe UI';
+    font-size: 30px;
+    color: #c59867;
+}
+
 .contenedor{
     width: 90%;
     max-width: 1000px;
@@ -135,6 +141,29 @@ font-family: 'Cambria';
     font-size: 40px;
 }
 /**Slider Frame Escritorio y Movil**/
+
+.bannerframe{
+    height: auto;
+    width: 45vmax;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+
+.bannerframe li{
+    color: #ececec;
+    text-align: center;
+    font-size: 30px;
+
+    list-style: none;
+    width: 100%;
+}
+
+.bannerframe img{
+    width: 96%;
+
+}
+
 .slider-frame{
     height: auto;
     width: 45vmax;
